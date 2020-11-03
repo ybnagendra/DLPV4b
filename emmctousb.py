@@ -217,7 +217,7 @@ class EMMC_TO_USB_COPY:
                 	edate = date(e.to_yy, e.to_mm, e.to_dd)  # end date
 
 	                delta = edate - sdate  # as timedelta
-        	        pth1 = '/mnt/mmcblk0p1/BKP_DLPV3b/SrcDir1/'
+        	        pth1 = '/mnt/mtdblock6/DLPV4b/SrcDir1/'
                 	usb_pth = '/mnt/sda1'
                 	bkp_dir = 'BKP_' + r.bkpdt
                 	MAKE_DIRECTORY(usb_pth, bkp_dir)
